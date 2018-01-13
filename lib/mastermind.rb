@@ -71,6 +71,7 @@ class MasterMind
   def play_game
     start_dialogue
     @array = ["r","r","g","g","b","b","y","y"].sample(4).join
+
     @start_time = Time.now
       while @input = gets.chomp.downcase
       break if @input == "quit" || @input == "q"
