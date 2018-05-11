@@ -131,8 +131,3 @@ class MasterMind
   end
 
 end
-
-
-instructions = Instructions.new
-master = MasterMind.new
-master.start(instructions)
